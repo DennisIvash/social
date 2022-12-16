@@ -1,8 +1,12 @@
+import './navbar.css'
+
 
 function NavBar() {
     return (
       <div className='navbar'>
-        Nav Bar
+        <a>Profile</a>
+        <a>Messages</a>
+        <a>Users</a>
       </div>
     );
   }
